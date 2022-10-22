@@ -5,6 +5,7 @@ const body = document.querySelector('body');
 const mobileLinks = document.querySelectorAll('.nav-mobile');
 const modal = document.querySelector('.modal');
 const modalInner = document.querySelector('.modal-inner');
+const cancelsModal = document.querySelector('.cancels');
 const works = document.querySelector('#Portfolio');
 const width = window.innerWidth;
 const isDesktop = width > 768;
@@ -317,3 +318,4 @@ form.addEventListener('submit', (event) => {
     alertMsg.innerText = 'Please Enter Your Email Only In Lower Case';
   }
 });
+ 
